@@ -1,8 +1,13 @@
-# Streamlit Contact Scraper
+# Streamlit Contact Scraper (v2)
 
-This Streamlit app allows you to upload a list of companies and extract publicly visible LinkedIn contact URLs for key roles like CEO, Investment Manager, and Real Estate Director.
+A contact scraper using SerpAPI and Google fallback to find LinkedIn profiles for CEOs, Investment Managers, and Real Estate Directors.
 
-## How to Use
-1. Run the app: `streamlit run app.py`
-2. Upload or use the default company list
-3. Scrape and download results
+## Setup
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Set your SerpAPI key:
+   export SERPAPI_KEY=your_api_key
+
+3. Run the app:
+   streamlit run app.py
