@@ -1,4 +1,4 @@
-# Streamlit Contact Scraper (v2)
+# Streamlit Contact Scraper (v2.5)
 
 A contact scraper using SerpAPI and Google fallback to find LinkedIn profiles for CEOs, Investment Managers, and Real Estate Directors.
 
