@@ -3,11 +3,12 @@ from bs4 import BeautifulSoup
 import streamlit as st
 
 ROLE_KEYWORDS = [
-    "Real Estate", "Real Estate Development", "Development Director",
-    "Real Estate Director", "Asset Manager", "Asset Management",
-    "Real Estate Investment", "Real Estate Investment Manager",
-    "Director Tecnico", "Head of Real Estate", "Project Manager",
-    "Director de Inversiones", "Portfolio Manager", "Director", "Manager", "Partner", "Head"
+    "SEO"
+    #"Real Estate", "Real Estate Development", "Development Director",
+    #"Real Estate Director", "Asset Manager", "Asset Management",
+    #"Real Estate Investment", "Real Estate Investment Manager",
+    #"Director Tecnico", "Head of Real Estate", "Project Manager",
+    #"Director de Inversiones", "Portfolio Manager", "Director", "Manager", "Partner", "Head"
 ]
 
 SERPAPI_KEY = st.secrets["api_keys"]["serpapi"]
