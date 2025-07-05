@@ -10,7 +10,7 @@ uploaded_file = st.file_uploader("Upload .csv with column 'Company'", type="csv"
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
 else:
-    df = pd.read_csv("input/default_companies.csv")
+    df = pd.read_csv("input/combined_defaultcompanies.csv")
     st.info("Using default company list.")
 
 st.write("Companies to scrape:", df)
